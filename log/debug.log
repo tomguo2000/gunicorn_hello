@@ -1,0 +1,137 @@
+[2022-08-17 14:07:18 +0800] [76026] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  wsgi_app: None
+  bind: ['0.0.0.0:7788']
+  backlog: 2048
+  workers: 3
+  worker_class: gevent
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/guoliang7/PycharmProjects/gunicorn_hello
+  daemon: False
+  raw_env: []
+  pidfile: log/gunicorn.pid
+  worker_tmp_dir: None
+  user: 1862767002
+  group: 526858981
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: log/access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: log/debug.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: gunicorn_hello:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1033c5310>
+  on_reload: <function OnReload.on_reload at 0x1033c5430>
+  when_ready: <function WhenReady.when_ready at 0x1033c5550>
+  pre_fork: <function Prefork.pre_fork at 0x1033c5670>
+  post_fork: <function Postfork.post_fork at 0x1033c5790>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x1033c58b0>
+  worker_int: <function WorkerInt.worker_int at 0x1033c59d0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x1033c5af0>
+  pre_exec: <function PreExec.pre_exec at 0x1033c5c10>
+  pre_request: <function PreRequest.pre_request at 0x1033c5d30>
+  post_request: <function PostRequest.post_request at 0x1033c5dc0>
+  child_exit: <function ChildExit.child_exit at 0x1033c5ee0>
+  worker_exit: <function WorkerExit.worker_exit at 0x1033de040>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x1033de160>
+  on_exit: <function OnExit.on_exit at 0x1033de280>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2022-08-17 14:07:18 +0800] [76026] [INFO] Starting gunicorn 20.1.0
+[2022-08-17 14:07:18 +0800] [76026] [DEBUG] Arbiter booted
+[2022-08-17 14:07:18 +0800] [76026] [INFO] Listening at: http://0.0.0.0:7788 (76026)
+[2022-08-17 14:07:18 +0800] [76026] [INFO] Using worker: gevent
+[2022-08-17 14:07:18 +0800] [76028] [INFO] Booting worker with pid: 76028
+[2022-08-17 14:07:18 +0800] [76030] [INFO] Booting worker with pid: 76030
+[2022-08-17 14:07:18 +0800] [76031] [INFO] Booting worker with pid: 76031
+[2022-08-17 14:07:18 +0800] [76026] [DEBUG] 3 workers
+[2022-08-17 14:07:21 +0800] [76026] [INFO] Handling signal: winch
+[2022-08-17 14:07:21 +0800] [76026] [DEBUG] SIGWINCH ignored. Not daemonized
+[2022-08-17 14:07:21 +0800] [76030] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76031] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76028] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76026] [INFO] Handling signal: winch
+[2022-08-17 14:07:21 +0800] [76026] [DEBUG] SIGWINCH ignored. Not daemonized
+[2022-08-17 14:07:21 +0800] [76030] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76031] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76028] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76026] [INFO] Handling signal: winch
+[2022-08-17 14:07:21 +0800] [76030] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76028] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76031] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76026] [DEBUG] SIGWINCH ignored. Not daemonized
+[2022-08-17 14:07:21 +0800] [76026] [INFO] Handling signal: winch
+[2022-08-17 14:07:21 +0800] [76026] [DEBUG] SIGWINCH ignored. Not daemonized
+[2022-08-17 14:07:21 +0800] [76028] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76031] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76030] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76026] [INFO] Handling signal: winch
+[2022-08-17 14:07:21 +0800] [76026] [DEBUG] SIGWINCH ignored. Not daemonized
+[2022-08-17 14:07:21 +0800] [76030] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76028] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76031] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76026] [INFO] Handling signal: winch
+[2022-08-17 14:07:21 +0800] [76026] [DEBUG] SIGWINCH ignored. Not daemonized
+[2022-08-17 14:07:21 +0800] [76031] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76030] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:21 +0800] [76028] [DEBUG] worker: SIGWINCH ignored.
+[2022-08-17 14:07:47 +0800] [76030] [DEBUG] GET /
+[2022-08-17 14:07:47 +0800] [76030] [DEBUG] GET /favicon.ico
+[2022-08-17 14:07:58 +0800] [76030] [DEBUG] GET /gunicorn_hello/version
+[2022-08-17 14:08:10 +0800] [76030] [DEBUG] GET /gunicorn_hello/version
+[2022-08-17 14:08:11 +0800] [76030] [DEBUG] GET /gunicorn_hello/version
+[2022-08-17 14:08:11 +0800] [76030] [DEBUG] GET /gunicorn_hello/version
+[2022-08-17 14:08:11 +0800] [76030] [DEBUG] GET /gunicorn_hello/version
+[2022-08-17 14:08:12 +0800] [76030] [DEBUG] GET /gunicorn_hello/version
+[2022-08-17 14:08:13 +0800] [76026] [INFO] Handling signal: int
+[2022-08-17 14:08:13 +0800] [76031] [INFO] Worker exiting (pid: 76031)
+[2022-08-17 14:08:13 +0800] [76030] [INFO] Worker exiting (pid: 76030)
+[2022-08-17 14:08:13 +0800] [76028] [INFO] Worker exiting (pid: 76028)
+[2022-08-17 14:08:14 +0800] [76026] [INFO] Shutting down: Master
