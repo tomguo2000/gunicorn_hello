@@ -20,7 +20,7 @@ class BaseConfig(object):
     # APP name and port
     APP_NAME = 'gunicorn_hello'
     APP_PORT = 7788
-    APP_VERSION = "0.0.1"
+    APP_VERSION = "0.0.2"
     # ******************************************************************************
 
     # Logfile name
