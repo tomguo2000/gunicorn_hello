@@ -1,0 +1,19 @@
+2022-08-17 13:37:30,937 - 75540-MainThread - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO:  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7788
+ * Running on http://10.18.48.11:7788 (Press CTRL+C to quit)
+2022-08-17 13:37:32,620 - 75540-Thread-1 - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO: 10.18.48.11 - - [17/Aug/2022 13:37:32] "[33mGET / HTTP/1.1[0m" 404 -
+2022-08-17 13:37:32,760 - 75540-Thread-2 - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO: 10.18.48.11 - - [17/Aug/2022 13:37:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-08-17 13:37:42,117 - 75540-Thread-3 - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO: 10.18.48.11 - - [17/Aug/2022 13:37:42] "[33mGET /gunicorn_hello HTTP/1.1[0m" 404 -
+2022-08-17 13:37:45,265 - 75540-Thread-4 - /Users/guoliang7/PycharmProjects/gunicorn_hello/gunicorn_hello.py[line:10] - INFO: /version happen******************************************************************************
+2022-08-17 13:37:45,265 - 75540-Thread-4 - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO: 10.18.48.11 - - [17/Aug/2022 13:37:45] "GET /gunicorn_hello/version HTTP/1.1" 200 -
+2022-08-17 13:41:07,713 - 75637-MainThread - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO:  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7788
+ * Running on http://10.18.48.11:7788 (Press CTRL+C to quit)
+2022-08-17 13:41:08,450 - 75637-Thread-1 - /Users/guoliang7/PycharmProjects/gunicorn_hello/gunicorn_hello.py[line:11] - INFO: /version happen******************************************************************************
+2022-08-17 13:41:08,451 - 75637-Thread-1 - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO: 10.18.48.11 - - [17/Aug/2022 13:41:08] "GET /gunicorn_hello/version HTTP/1.1" 200 -
+2022-08-17 13:41:09,577 - 75637-Thread-2 - /Users/guoliang7/PycharmProjects/gunicorn_hello/gunicorn_hello.py[line:11] - INFO: /version happen******************************************************************************
+2022-08-17 13:41:09,579 - 75637-Thread-2 - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO: 10.18.48.11 - - [17/Aug/2022 13:41:09] "GET /gunicorn_hello/version HTTP/1.1" 200 -
+2022-08-17 13:41:10,375 - 75637-Thread-3 - /Users/guoliang7/PycharmProjects/gunicorn_hello/gunicorn_hello.py[line:11] - INFO: /version happen******************************************************************************
+2022-08-17 13:41:10,376 - 75637-Thread-3 - /Users/guoliang7/PycharmProjects/gunicorn_hello/venv/lib/python3.8/site-packages/werkzeug/_internal.py[line:224] - INFO: 10.18.48.11 - - [17/Aug/2022 13:41:10] "GET /gunicorn_hello/version HTTP/1.1" 200 -
