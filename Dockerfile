@@ -1,5 +1,7 @@
 FROM python3.8_pip3_libs:0.9.6
 
+RUN apk add gcc libc-dev make libffi-dev openssl-dev libxml2-dev libxslt-dev
+
 COPY ./requirements.txt /requirements.txt
 
 WORKDIR /
